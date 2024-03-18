@@ -6,15 +6,16 @@ const Cursor = () => {
 
     const cursor = { x: useMotionValue(0), y: useMotionValue(0) }
 
-    /*  const smoothMouse = {
-         x: useSpring(cursor.x),
-         y: useSpring(cursor.y)
-     } */
+    const smoothOptions = { damping: 20, stiffness: 300, mass: 0.5 }
+    const smoothMouse = {
+        x: useSpring(cursor.x, smoothOptions),
+        y: useSpring(cursor.y, smoothOptions)
+    }
 
     useEffect(() => {
         const moveMouse = ({ clientX: x, clientY: y }) => {
-            cursor.x.set(x)
-            cursor.y.set(y)
+            cursor.x.set(x - 20)
+            cursor.y.set(y - 20)
             console.log({ x, y });
 
         }
@@ -28,11 +29,10 @@ const Cursor = () => {
 
 
     return (
-        <motion.div className='h-10 w-10 fixed top-0 left-0 rounded-full pointer-events-none z-50 bg-black text-white' style={{
-            left: cursor.x.get(),
-            top: cursor.y.get()
+        <motion.div className='h-10 w-10 fixed top-0 left-0 rounded-full pointer-events-none z-50 bg-white mix-blend-difference ' style={{
+            left: smoothMouse.x,
+            top: smoothMouse.y
         }}>
-            {cursor.x.get()}
         </motion.div>
     )
 }

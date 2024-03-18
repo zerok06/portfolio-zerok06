@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+::selection {
+    background: rgba(255, 255, 255, 0.2);
+}
 
 .hero-background {
     background: radial-gradient(#373637 0%, #141515 60%);
