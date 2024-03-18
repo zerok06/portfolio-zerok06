@@ -1,0 +1,40 @@
+{
+    "firstName": "Jose Enrique",
+    "lastName": "Paye Mamani",
+    "email": "jose.geeksjose@gmail.com",
+    "phone": "+51 910 852 459",
+    "social": {
+        "Github": "https://github.com/zerok06",
+        "LinkedIn": "https://www.linkedin.com/in/zerok06",
+        "Facebook": "https://www.facebook.com/zerok06",
+        "Instagram": "https://www.instagram.com/zerok06_",
+        "X": "https://twitter.com/ZkZerok",
+        "TikTok": "https://www.tiktok.com/@zerok06_"
+    },
+    "navbar": [
+        {
+            "title": "Home",
+            "url": ""
+        },
+        {
+            "title": "About",
+            "url": ""
+        },
+        {
+            "title": "Services",
+            "url": ""
+        },
+        {
+            "title": "Work",
+            "url": ""
+        },
+        {
+            "title": "Contact",
+            "url": ""
+        }
+    ],
+    "hero": {
+        "title": "Web Developer",
+        "paragraph": "Explore my portfolio to discover a variety of projects that I have created with love and dedication. Each line of code, each carefully crafted design, is a manifestation of my commitment to excellence and innovation."
+    }
+}

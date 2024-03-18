@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import LocalFont from "next/font/local";
+import { Poppins } from 'next/font/google'
 import "./globals.css";
+import { cn } from "@/lib/utils";
 
-const inter = Inter({ subsets: ["latin"] });
+const anurati = LocalFont({
+  src: "../public/font/anurati.otf",
+  variable: "--font-anurati",
+  style: 'normal'
+})
+
+const poppins = Poppins({
+  variable: "--font-poppins",
+  style: 'normal',
+  subsets: ['latin'],
+  weight: ['100', '200', '300', "400", "500", "600", "700", "800", "900"]
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="es">
+      <body className={cn('antialiased', poppins.variable, anurati.variable)}>{children}</body>
     </html>
   );
 }
