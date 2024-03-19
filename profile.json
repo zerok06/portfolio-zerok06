@@ -153,5 +153,29 @@
                 "alt": "developer"
             }
         ]
+    },
+    "work": {
+        "title": "The work I do, and the businesses I help",
+        "desc": "",
+        "items": [
+            {
+                "title": "CISCCOM 2023",
+                "image": "/assets/images/cisccom_mockup.png",
+                "desc": "",
+                "technologies": [
+                    "ReactJs",
+                    "Nodejs"
+                ]
+            },
+            {
+                "title": "SIMBIG 2024",
+                "image": "/assets/images/simbig24_mockup.png",
+                "desc": "",
+                "technologies": [
+                    "ReactJs",
+                    "Nodejs"
+                ]
+            }
+        ]
     }
 }

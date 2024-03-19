@@ -8,7 +8,6 @@ const Resume = () => {
     const { resume: { workExperience, education, onlineCourses, skills, tools } } = PROFILE
     const len = Math.round(tools.items.length / 2)
     const currentTools = [tools.items.slice(0, len), tools.items.slice(len)]
-    console.log(currentTools);
 
 
     return (
