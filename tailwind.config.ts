@@ -10,7 +10,11 @@ const config: Config = {
     extend: {
       fontFamily: {
         display: ['var(--font-poppins)'],
-        title: ['var(--font-anurati)'],
+        title: ['var(--font-inter)'],
+      },
+      colors: {
+        primary: 'hsl(var(--primary))',
+        dark: 'hsl(var(--dark))',
       },
     },
   },

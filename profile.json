@@ -25,6 +25,10 @@
             "url": ""
         },
         {
+            "title": "Clients",
+            "url": ""
+        },
+        {
             "title": "Work",
             "url": ""
         },
@@ -36,5 +40,110 @@
     "hero": {
         "title": "Web Developer",
         "paragraph": "Explore my portfolio to discover a variety of projects that I have created with love and dedication. Each line of code, each carefully crafted design, is a manifestation of my commitment to excellence and innovation."
+    },
+    "services": {},
+    "resume": {
+        "workExperience": {
+            "title": "Work Experience",
+            "items": [
+                {
+                    "name": "Cisccom 2023",
+                    "job": "Web Developer",
+                    "desc": "August 2023 -  2023"
+                },
+                {
+                    "name": "Cisccom 2023",
+                    "job": "Web Developer",
+                    "desc": "August 2023 -  2023"
+                }
+            ]
+        },
+        "education": {
+            "title": "Education",
+            "items": [
+                {
+                    "institution": "UNAM",
+                    "title": "Systems and IT Engineering",
+                    "duration": "2022 - Actually"
+                },
+                {
+                    "institution": "IESTP LEV",
+                    "title": "Computer and Informatics Technician",
+                    "duration": "2018 - 2021"
+                }
+            ]
+        },
+        "onlineCourses": {
+            "title": "Online Courses",
+            "items": [
+                {
+                    "institution": "IESTP LEV",
+                    "title": "Computer and Informatics Technician",
+                    "duration": "2018 - 2021"
+                },
+                {
+                    "institution": "IESTP LEV",
+                    "title": "Computer and Informatics Technician",
+                    "duration": "2018 - 2021"
+                }
+            ]
+        },
+        "skills": {
+            "title": "Skills",
+            "items": {
+                "Development": {
+                    "title": "Development",
+                    "items": [
+                        "Visual Development",
+                        "WebFlow Development",
+                        "Front-End Development",
+                        "HTML5/CSS3/JS",
+                        "No-Code Solutions"
+                    ]
+                },
+                "Design": {
+                    "title": "Design",
+                    "items": [
+                        "Product Design",
+                        "UX/UI Design",
+                        "Visual Design",
+                        "WireFraming",
+                        "Prototyping"
+                    ]
+                }
+            }
+        },
+        "tools": {
+            "title": "Tools",
+            "items": [
+                "Figma",
+                "PhotoShop",
+                "Blender",
+                "WebFlow",
+                "Notion",
+                "VS Code",
+                "Adobe XD",
+                "Framer",
+                "Whimsical",
+                "Bravo Studio",
+                "Hugging Face",
+                "Open AI",
+                "Git & GitHub",
+                "ReactJs",
+                "NextJs",
+                "Nodejs",
+                "AstroJs",
+                "TailwindCss"
+            ]
+        }
+    },
+    "gallery": {
+        "title": "Gallery",
+        "items": [
+            {
+                "scr": "",
+                "alt": ""
+            }
+        ]
     }
 }

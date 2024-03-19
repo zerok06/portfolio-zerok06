@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
-import LocalFont from "next/font/local";
-import { Poppins } from 'next/font/google'
+import { Inter, Poppins } from 'next/font/google'
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-const anurati = LocalFont({
-  src: "../public/font/anurati.otf",
-  variable: "--font-anurati",
-  style: 'normal'
+
+const inter = Inter({
+  variable: '--font-inter',
+  subsets: ['latin-ext'],
 })
 
 const poppins = Poppins({
@@ -28,8 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
-      <body className={cn('antialiased', poppins.variable, anurati.variable)}>{children}</body>
+    <html lang="en">
+      <body className={cn('antialiased bg-dark text-white', poppins.variable, inter.variable)}>{children}</body>
     </html>
   );
 }

@@ -13,7 +13,7 @@ const Hero = () => {
         <header className="min-h-[100svh] hero-background text-white relative">
             <Navbar />
             <section className="h-[calc(100svh-112px)] flex flex-col items-center justify-center">
-                <h1 className="font-title text-8xl uppercase tracking-wider">
+                <h1 className="font-title text-8xl font-semibold uppercase">
                     {title}
                 </h1>
                 <p className="md:max-w-3xl text-center opacity-70">{paragraph}</p>

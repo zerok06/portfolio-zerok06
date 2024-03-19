@@ -2,10 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+    --primary: 189 100% 50%;
+    --dark: 0 0% 1%;
+    --dark-1: 0 0% 10%;
+}
+
 ::selection {
     background: rgba(255, 255, 255, 0.2);
 }
 
 .hero-background {
-    background: radial-gradient(#373637 0%, #141515 60%);
+    background: radial-gradient(hsl(var(--dark-1)) 0%, hsl(var(--dark)) 60%);
+}
+
+@layer components {
+    .h1 {
+        @apply text-6xl font-semibold font-title tracking-tighter
+    }
+
+    .h2 {
+        @apply text-5xl font-semibold font-title tracking-tighter relative before:content-[""] before:absolute before:h-3 before:border-4 before:border-[hsl(var(--primary)/0.6)_transparent_transparent_transparent] before:rounded-[50%] before:w-full before:top-[calc(100%-6px)] before:-z-10 before:rotate-2 before:left-0 inline-block
+    }
+
+    .h3 {
+        @apply text-2xl font-semibold font-title tracking-tighter relative before:content-[""] before:absolute before:h-3 before:border-4 before:border-[hsl(var(--primary)/0.6)_transparent_transparent_transparent] before:rounded-[50%] before:w-full before:top-[calc(100%-6px)] before:-z-10 before:rotate-2 before:left-0 inline-block
+    }
 }

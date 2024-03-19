@@ -7,7 +7,7 @@ interface WrapperProps extends React.HTMLProps<HTMLDivElement> {
 
 const Wrapper: React.FC<Readonly<WrapperProps>> = ({ children, className }) => {
     return (
-        <div className={cn('max-w-6xl mx-auto px-4', className)}>{children}</div>
+        <div className={cn('max-w-4xl mx-auto px-4', className)}>{children}</div>
     )
 }
 
