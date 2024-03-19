@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn('antialiased bg-dark text-white', poppins.variable, inter.variable)}>{children}</body>
+      <body className={cn('antialiased bg-dark text-white cursor-none', poppins.variable, inter.variable)}>{children}</body>
     </html>
   );
 }
