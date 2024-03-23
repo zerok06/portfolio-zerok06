@@ -29,7 +29,7 @@ const Cursor = () => {
 
 
     return (
-        <motion.div className='h-10 w-10 fixed top-0 left-0 rounded-full pointer-events-none z-50 bg-white mix-blend-difference ' style={{
+        <motion.div className='h-10 w-10 fixed top-0 left-0 rounded-full pointer-events-none z-50 bg-white/50' style={{
             left: smoothMouse.x,
             top: smoothMouse.y
         }}>
