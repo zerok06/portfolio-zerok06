@@ -177,5 +177,30 @@
                 ]
             }
         ]
+    },
+    "clients": {
+        "title": "Clients",
+        "items": [
+            {
+                "image": "https://www.svgrepo.com/show/303183/google-2015-logo.svg",
+                "name": "Google",
+                "url": "https://www.google.com"
+            },
+            {
+                "image": "https://www.svgrepo.com/show/303183/google-2015-logo.svg",
+                "name": "Google",
+                "url": "https://www.google.com"
+            },
+            {
+                "image": "https://www.svgrepo.com/show/303183/google-2015-logo.svg",
+                "name": "Google",
+                "url": "https://www.google.com"
+            },
+            {
+                "image": "https://www.svgrepo.com/show/303183/google-2015-logo.svg",
+                "name": "Google",
+                "url": "https://www.google.com"
+            }
+        ]
     }
 }
