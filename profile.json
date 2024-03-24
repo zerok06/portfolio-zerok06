@@ -13,18 +13,22 @@
     },
     "navbar": [
         {
+            "id": "451d8e1d-f145-4800-aede-ef04aa29d98a",
             "title": "About",
             "url": ""
         },
         {
+            "id": "cdbc9f2c-0d10-4751-88fa-6e4f87a3573b",
             "title": "Services",
             "url": ""
         },
         {
+            "id": "a4fdfbd2-74b3-4d58-b323-25e602b1875c",
             "title": "Clients",
             "url": ""
         },
         {
+            "id": "30303460-c73d-46d4-afcb-e31f5958825b",
             "title": "Work",
             "url": ""
         }
@@ -39,11 +43,13 @@
             "title": "Work Experience",
             "items": [
                 {
+                    "id": "96a81174-2a73-4f75-85ec-0549ef0d87a1",
                     "name": "Cisccom 2023",
                     "job": "Web Developer",
                     "desc": "August 2023 -  2023"
                 },
                 {
+                    "id": "ae29d3f3-bdde-4251-ac8d-77ba789cd97d",
                     "name": "Cisccom 2023",
                     "job": "Web Developer",
                     "desc": "August 2023 -  2023"
@@ -54,11 +60,13 @@
             "title": "Education",
             "items": [
                 {
+                    "id": "99b5a69c-b5d4-48e8-a046-f2dc951671a7",
                     "institution": "UNAM",
                     "title": "Systems and IT Engineering",
                     "duration": "2022 - Actually"
                 },
                 {
+                    "id": "410be291-c8c1-4384-b44a-a2e7a98b8963",
                     "institution": "IESTP LEV",
                     "title": "Computer and Informatics Technician",
                     "duration": "2018 - 2021"
@@ -69,11 +77,13 @@
             "title": "Online Courses",
             "items": [
                 {
+                    "id": "0721f446-fe74-4ba9-bcc4-b864a770698b",
                     "institution": "IESTP LEV",
                     "title": "Computer and Informatics Technician",
                     "duration": "2018 - 2021"
                 },
                 {
+                    "id": "302b4a84-d15d-4730-a11f-3d65b3ff93c7",
                     "institution": "IESTP LEV",
                     "title": "Computer and Informatics Technician",
                     "duration": "2018 - 2021"
@@ -133,14 +143,17 @@
         "title": "Gallery",
         "items": [
             {
+                "id": "6928c1d3-8206-4caf-8202-f54fe7c16eb2",
                 "scr": "https://images.unsplash.com/photo-1604964432806-254d07c11f32?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "alt": "developer"
             },
             {
+                "id": "2460b3b2-ef3f-4775-a078-57e7862885f4",
                 "scr": "https://images.unsplash.com/photo-1522252234503-e356532cafd5?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "alt": "developer"
             },
             {
+                "id": "902e6278-8767-4d32-98a5-2a0e59a6eae8",
                 "scr": "https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "alt": "developer"
             }
@@ -151,6 +164,7 @@
         "desc": "",
         "items": [
             {
+                "id": "861f0927-a494-47f9-b5ff-a6392b026171",
                 "title": "CISCCOM 2023",
                 "image": "/assets/images/cisccom_mockup.png",
                 "desc": "",
@@ -160,6 +174,7 @@
                 ]
             },
             {
+                "id": "024f5cfe-7cb9-4b92-ac07-4511940a2f7d",
                 "title": "SIMBIG 2024",
                 "image": "/assets/images/simbig24_mockup.png",
                 "desc": "",
@@ -217,5 +232,51 @@
         "name": "Jose Paye",
         "desc": "I am a web developer with experience in visual design, front-end development and machine learning. I specialize in creating attractive and functional digital experiences, using tools such as Figma and machine learning techniques to improve user interaction.",
         "image": "/assets/images/face.webp"
+    },
+    "formContact": {
+        "tag": "Take a coffee & chat with me",
+        "title": "Contact",
+        "topics": [
+            {
+                "id": 1,
+                "name": "General Inquiries"
+            },
+            {
+                "id": 2,
+                "name": "Collaborations"
+            },
+            {
+                "id": 3,
+                "name": "Services"
+            },
+            {
+                "id": 4,
+                "name": "Quotes"
+            },
+            {
+                "id": 5,
+                "name": "Hiring"
+            },
+            {
+                "id": 6,
+                "name": "Technical Support"
+            },
+            {
+                "id": 7,
+                "name": "Feedback"
+            },
+            {
+                "id": 8,
+                "name": "Consultation"
+            },
+            {
+                "id": 9,
+                "name": "Interviews or Talks"
+            },
+            {
+                "id": 10,
+                "name": "Other"
+            }
+        ]
     }
 }

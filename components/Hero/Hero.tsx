@@ -24,6 +24,7 @@ const Hero = () => {
                 {navbar.map(item => (
                     <a
                         href="#"
+                        key={item.title}
                         className="hover:bg-white transition-colors duration-500 h-3 w-3 rounded-full border-[1px]"
                     ></a>
                 ))}

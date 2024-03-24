@@ -1,5 +1,6 @@
 import { About } from "@/components/About";
 import { Clients } from "@/components/Clients";
+import { Contact } from "@/components/Contact";
 import { Cursor } from "@/components/Cursor";
 import { Footer } from "@/components/Footer";
 import { Gallery } from "@/components/Gallery";
@@ -20,7 +21,7 @@ export default function Home() {
       {/* <section>services</section> */}
       <Work />
       <Testimonial />
-      <section>contact</section>
+      <Contact />
       <Footer />
       <Cursor />
     </>

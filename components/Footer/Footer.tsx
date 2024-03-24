@@ -9,7 +9,7 @@ const Footer = () => {
         social: { Facebook, Github, Instagram, LinkedIn, TikTok, X },
     } = DATA
     return (
-        <section className='pb-4 pt-10'>
+        <section className='pb-4 pt-10 border-t border-t-white/10'>
             <Wrapper>
                 <div className='flex justify-between'>
                     <nav className="flex flex-row gap-3">

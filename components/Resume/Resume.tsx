@@ -21,7 +21,7 @@ const Resume = () => {
                             <div className='flex flex-col gap-4 items-start'>
                                 {
                                     workExperience.items.map(item =>
-                                        <div className='flex flex-col gap-1 items-start'>
+                                        <div className='flex flex-col gap-1 items-start' key={item.id}>
                                             <h4 className='text-xl font-medium'>
                                                 <Link href='#'>
                                                     {item.name}
@@ -40,14 +40,14 @@ const Resume = () => {
                                 <div className='flex-1 flex flex-col items-start gap-4 text-sm text-white/80'>
                                     {
                                         skills.items.Design.items.map(item =>
-                                            <p>{item}</p>
+                                            <p key={item}>{item}</p>
                                         )
                                     }
                                 </div>
                                 <div className='flex-1 flex flex-col items-start gap-4 text-sm text-white/80'>
                                     {
                                         skills.items.Development.items.map(item =>
-                                            <p>{item}</p>
+                                            <p key={item} >{item}</p>
                                         )
                                     }
                                 </div>
@@ -61,7 +61,7 @@ const Resume = () => {
 
                                         <div className='flex-1 flex flex-col items-start gap-4 text-sm text-white/80'>
                                             {item.map(value =>
-                                                <p>{value}</p>
+                                                <p key={value}>{value}</p>
                                             )
                                             }
                                         </div>
@@ -78,7 +78,7 @@ const Resume = () => {
                             <div className='flex flex-col gap-4 items-start'>
                                 {
                                     education.items.map(item =>
-                                        <div className='flex flex-col gap-1 items-start'>
+                                        <div className='flex flex-col gap-1 items-start' key={item.id}>
                                             <h4 className='text-xl font-medium'>
                                                 <Link href='#'>
                                                     {item.institution}
@@ -96,7 +96,7 @@ const Resume = () => {
                             <div className='flex flex-col gap-4 items-start'>
                                 {
                                     onlineCourses.items.map(item =>
-                                        <div className='flex flex-col gap-1 items-start'>
+                                        <div className='flex flex-col gap-1 items-start' key={item.id}>
                                             <h4 className='text-xl font-medium'>
                                                 <Link href='#'>
                                                     {item.institution}

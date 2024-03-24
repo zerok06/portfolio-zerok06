@@ -20,7 +20,7 @@ const Work = () => {
                                 'translate-y-20': index === 1
                             })}>
                                 {item.map(element =>
-                                    <div className='flex flex-col gap-3'>
+                                    <div className='flex flex-col gap-3' key={element.id}>
                                         <img src={element.image} className='aspect-square object-cover grayscale hover:grayscale-0 transition-all duration-500' alt={element.title} />
                                         <h3 className='text-lg font-title font-semibold'>{element.title}</h3>
                                         <p className='text-sm text-balance text-white/70 '>{element.desc}</p>

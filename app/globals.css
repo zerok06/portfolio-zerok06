@@ -20,8 +20,8 @@
 }
 
 .face {
-    -webkit-mask-image: linear-gradient(black 1%, transparent 99%);
-    mask-image: linear-gradient(black 1%, transparent 99%);
+    -webkit-mask-image: linear-gradient(black 80%, transparent);
+    mask-image: linear-gradient(black 90%, transparent);
 }
 
 @layer components {
