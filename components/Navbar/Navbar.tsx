@@ -14,7 +14,7 @@ const Navbar = () => {
                 {navbar.map(({ title, url, id }) =>
                     <a href={url} className='px-4 shadow-2xl hover:shadow-white/20  text-white/70 font-medium hover:text-white transition-all rounded-full py-2  hover:bg-white/10 duration-500' key={id}>{title}</a>
                 )}
-                <a href="#" className='px-4 shadow-2xl hover:shadow-white/20   text-black font-medium  transition-all rounded-full py-2  bg-white duration-500'>Contact with me</a>
+                <a href="#contact" className='px-4 shadow-2xl hover:shadow-white/20   text-black font-medium  transition-all rounded-full py-2  bg-white duration-500'>Contact with me</a>
             </div>
         </nav>
     )

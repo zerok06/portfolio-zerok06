@@ -11,7 +11,7 @@ const Resume = () => {
 
 
     return (
-        <section className='py-20'>
+        <section className='py-20' id='resume'>
             <Wrapper>
                 <h2 className='h2 mb-14'>Resume</h2>
                 <section className='flex flex-wrap justify-center'>

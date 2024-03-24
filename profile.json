@@ -15,22 +15,22 @@
         {
             "id": "451d8e1d-f145-4800-aede-ef04aa29d98a",
             "title": "About",
-            "url": ""
-        },
-        {
-            "id": "cdbc9f2c-0d10-4751-88fa-6e4f87a3573b",
-            "title": "Services",
-            "url": ""
+            "url": "/#about"
         },
         {
             "id": "a4fdfbd2-74b3-4d58-b323-25e602b1875c",
-            "title": "Clients",
-            "url": ""
+            "title": "Resume",
+            "url": "/#resume"
         },
         {
             "id": "30303460-c73d-46d4-afcb-e31f5958825b",
-            "title": "Work",
-            "url": ""
+            "title": "Works",
+            "url": "#works"
+        },
+        {
+            "id": "9ecce689-ca0a-4df1-8a13-0af03baa9123",
+            "title": "Testimonials",
+            "url": "#testimonials"
         }
     ],
     "hero": {

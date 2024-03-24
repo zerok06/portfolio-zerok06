@@ -9,7 +9,7 @@ const Contact = () => {
     const { formContact: { title, tag } } = DATA
 
     return (
-        <section className='py-20'>
+        <section className='py-20' id='contact'>
             <Wrapper>
                 <h2 className='h1 text-5xl'>{title}</h2>
                 <p className='mb-14 text-white/70'>{tag}</p>

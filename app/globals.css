@@ -24,6 +24,10 @@
     mask-image: linear-gradient(black 90%, transparent);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @layer components {
     .h1 {
         @apply text-6xl font-semibold font-title tracking-tighter

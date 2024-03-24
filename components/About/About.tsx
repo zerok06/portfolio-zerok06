@@ -7,7 +7,7 @@ const About = () => {
     const { about: { desc, image, title, name } } = DATA
 
     return (
-        <section className='py-20'>
+        <section className='py-20' id='about'>
             <Wrapper>
                 <div className='flex flex-wrap justify-center'>
                     <img src={image} alt={title} className='face max-w-[50%] min-w-[312px] grayscale' />

@@ -10,7 +10,7 @@ const Work = () => {
     const len = Math.round(items.length / 2)
     const currentItems = [items.slice(0, len), items.slice(len)]
     return (
-        <section>
+        <section className='py-20' id='works'>
             <Wrapper>
                 <div>
                     <h2 className='text-3xl md:text-5xl tracking-tighter font-semibold inline-block max-w-[400px] font-title mb-14'>{title}</h2>

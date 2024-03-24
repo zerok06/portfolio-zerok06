@@ -43,7 +43,7 @@ const Testimonial = () => {
 
 
     return (
-        <section className='pb-20 pt-40'>
+        <section className='pb-20 pt-40' id='testimonials'>
             <Wrapper>
                 <h2 className='text-3xl md:text-5xl tracking-tighter font-semibold inline-block max-w-[500px] font-title mb-14'>{title}</h2>
                 <div>
