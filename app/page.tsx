@@ -16,7 +16,7 @@ export default function Home() {
       <section>about</section>
       <Clients />
       <Resume />
-      <section>services</section>
+      {/* <section>services</section> */}
       <Work />
       <Testimonial />
       <section>contact</section>

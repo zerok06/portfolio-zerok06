@@ -182,21 +182,25 @@
         "title": "Clients",
         "items": [
             {
+                "id": "34ce48d0-aa9c-434b-9f47-064956cc24ef",
                 "image": "https://www.svgrepo.com/show/303183/google-2015-logo.svg",
                 "name": "Google",
                 "url": "https://www.google.com"
             },
             {
+                "id": "8e5051be-8bde-4e06-aea6-b475086a958e",
                 "image": "https://www.svgrepo.com/show/303183/google-2015-logo.svg",
                 "name": "Google",
                 "url": "https://www.google.com"
             },
             {
+                "id": "cda544b5-985d-4d4f-a61e-a72f7e3ce77a",
                 "image": "https://www.svgrepo.com/show/303183/google-2015-logo.svg",
                 "name": "Google",
                 "url": "https://www.google.com"
             },
             {
+                "id": "feda1b4a-65af-4f9f-9202-3d93e0368c93",
                 "image": "https://www.svgrepo.com/show/303183/google-2015-logo.svg",
                 "name": "Google",
                 "url": "https://www.google.com"

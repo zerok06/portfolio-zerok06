@@ -16,8 +16,6 @@ const Cursor = () => {
         const moveMouse = ({ clientX: x, clientY: y }) => {
             cursor.x.set(x - 20)
             cursor.y.set(y - 20)
-            console.log({ x, y });
-
         }
         /* const exitMoveMouse = (e) => {
             cursor.x.set(100)
