@@ -1,3 +1,4 @@
+import { About } from "@/components/About";
 import { Clients } from "@/components/Clients";
 import { Cursor } from "@/components/Cursor";
 import { Footer } from "@/components/Footer";
@@ -12,9 +13,9 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <About />
       <Gallery />
-      <section>about</section>
-      <Clients />
+      {/* <Clients /> */}
       <Resume />
       {/* <section>services</section> */}
       <Work />

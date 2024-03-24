@@ -12,8 +12,9 @@ const Navbar = () => {
             <Logo />
             <div className='flex md:gap-2 lg:gap-4 font-title font-medium text-sm'>
                 {navbar.map(({ title, url }) =>
-                    <a href={url} className='px-4 shadow-2xl hover:shadow-white/20  lg:text-lg text-white/70 font-medium hover:text-white transition-all rounded-full py-2  hover:bg-white/10 duration-500'>{title}</a>
+                    <a href={url} className='px-4 shadow-2xl hover:shadow-white/20  text-white/70 font-medium hover:text-white transition-all rounded-full py-2  hover:bg-white/10 duration-500'>{title}</a>
                 )}
+                <a href="#" className='px-4 shadow-2xl hover:shadow-white/20   text-black font-medium  transition-all rounded-full py-2  bg-white duration-500'>Contact with me</a>
             </div>
         </nav>
     )

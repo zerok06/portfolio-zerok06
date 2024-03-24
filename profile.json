@@ -13,10 +13,6 @@
     },
     "navbar": [
         {
-            "title": "Home",
-            "url": ""
-        },
-        {
             "title": "About",
             "url": ""
         },
@@ -30,10 +26,6 @@
         },
         {
             "title": "Work",
-            "url": ""
-        },
-        {
-            "title": "Contact",
             "url": ""
         }
     ],
@@ -219,5 +211,11 @@
                 "brand": "UNAM"
             }
         ]
+    },
+    "about": {
+        "title": "Hello, Im ",
+        "name": "Jose Paye",
+        "desc": "I am a web developer with experience in visual design, front-end development and machine learning. I specialize in creating attractive and functional digital experiences, using tools such as Figma and machine learning techniques to improve user interaction.",
+        "image": "/assets/images/face.webp"
     }
 }
