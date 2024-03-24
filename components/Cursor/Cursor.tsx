@@ -19,9 +19,16 @@ const Cursor = () => {
             console.log({ x, y });
 
         }
+        /* const exitMoveMouse = (e) => {
+            cursor.x.set(100)
+            cursor.y.set(100)
+            console.log(e)
+        } */
         window.addEventListener('mousemove', moveMouse)
+        /* window.addEventListener('mouseout', exitMoveMouse) */
         return () => {
             window.removeEventListener('mousemove', moveMouse)
+            /* window.removeEventListener('mouseout', exitMoveMouse) */
         }
     }, [])
 

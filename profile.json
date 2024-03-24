@@ -202,5 +202,18 @@
                 "url": "https://www.google.com"
             }
         ]
+    },
+    "testimonials": {
+        "title": "Trusted by colleagues around the world.",
+        "items": [
+            {
+                "id": "41763068-794e-4f28-8343-2ba2dc6d04ab",
+                "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "name": "Mariela Melissa Nina Capujra",
+                "comment": "Una experiencia excepcional. Profesionalismo, creatividad y atención al detalle impecables. Altamente recomendado.",
+                "job": "Bach. Ingeniera de Sistemas e Informática",
+                "brand": "UNAM"
+            }
+        ]
     }
 }

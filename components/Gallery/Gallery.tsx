@@ -14,7 +14,7 @@ const Gallery = () => {
                     {items.map(item =>
                         <div className='min-w-[288px] max-w-[33%] px-4'>
                             <div className='overflow-hidden relative flex h-[200px] group'>
-                                <img src={item.scr} alt={item.alt} className='h-full w-[400px] object-cover grayscale' />
+                                <img src={item.scr} alt={item.alt} className='h-full w-[400px] object-cover' />
                             </div>
                         </div>
                     )}

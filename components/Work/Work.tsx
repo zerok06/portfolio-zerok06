@@ -13,8 +13,8 @@ const Work = () => {
         <section>
             <Wrapper>
                 <div>
-                    <h2 className='text-5xl tracking-tighter font-semibold inline-block max-w-[400px] font-title mb-14'>{title}</h2>
-                    <div className='flex flex-wrap gap-y-4 py-6'>
+                    <h2 className='text-3xl md:text-5xl tracking-tighter font-semibold inline-block max-w-[400px] font-title mb-14'>{title}</h2>
+                    <div className='flex flex-wrap gap-y-4 py-6 justify-center'>
                         {currentItems.map((item, index) =>
                             <div className={cn('px-6 min-w-[312px] md:min-w-[432px] max-w-[50%]', {
                                 'translate-y-20': index === 1

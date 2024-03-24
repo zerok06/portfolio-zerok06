@@ -4,9 +4,10 @@
 
 
 :root {
-    --primary: 189 100% 50%;
+    --primary: 231 80% 45%;
     --dark: 0 0% 1%;
     --dark-1: 0 0% 10%;
+    --prueba: hsl(231, 80%, 45%);
 }
 
 ::selection {
@@ -14,7 +15,8 @@
 }
 
 .hero-background {
-    background: radial-gradient(hsl(var(--dark-1)) 0%, hsl(var(--dark)) 60%);
+    background: url('/assets/images/hero-bg.png') no-repeat center bottom, radial-gradient(hsl(var(--dark-1)) 0%, hsl(var(--dark)) 60%);
+    background-size: contain;
 }
 
 @layer components {

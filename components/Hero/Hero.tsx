@@ -13,10 +13,12 @@ const Hero = () => {
         <header className="min-h-[100svh] hero-background text-white relative">
             <Navbar />
             <section className="h-[calc(100svh-112px)] flex flex-col items-center justify-center">
-                <h1 className="font-title text-8xl font-semibold uppercase">
-                    {title}
+                <h1 className="font-title text-4xl sm:text-8xl md:text-[150px] font-black uppercase leading-none">
+                    Web
+                    <br />
+                    Developer
                 </h1>
-                <p className="md:max-w-3xl text-center opacity-70">{paragraph}</p>
+                {/* <p className="md:max-w-3xl text-center opacity-70">{paragraph}</p> */}
             </section>
             <nav className="absolute right-10 top-[calc(100vh/2-46px)] flex flex-col gap-2">
                 {navbar.map(item => (
