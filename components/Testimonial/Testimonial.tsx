@@ -90,7 +90,7 @@ const Testimonial = () => {
                                         }}
                                         className='text-base text-balance text-white/80 italic'
                                     >
-                                        "{items[index].comment}"
+                                        &quot;{items[index].comment}&quot;
 
                                     </motion.p>
                                     <motion.div className='flex gap-4'
