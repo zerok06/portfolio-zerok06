@@ -1,5 +1,5 @@
 'use client'
-import React, { useMemo, useState } from 'react'
+import React, { useState } from 'react'
 import { Wrapper } from '../Wrapper'
 import { AnimatePresence, motion, type Variants } from 'framer-motion'
 import PROFILE from '@/profile.json'
@@ -7,7 +7,7 @@ import PROFILE from '@/profile.json'
 const Testimonial = () => {
 
     const { testimonials: { title, items } } = PROFILE
-    const len = useMemo(() => items.length, [])
+    const len = items.length
     const [index, setIndex] = useState(0)
 
     const nextTestimonial = () => {
