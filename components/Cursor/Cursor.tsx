@@ -13,6 +13,7 @@ const Cursor = () => {
     }
 
     useEffect(() => {
+        //@ts-ignore
         const moveMouse = ({ clientX: x, clientY: y }) => {
             cursor.x.set(x - 20)
             cursor.y.set(y - 20)
