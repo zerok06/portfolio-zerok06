@@ -18,7 +18,7 @@ const Work = () => {
                         {currentItems.map((item, index) =>
                             <div className={cn('px-6 min-w-[312px] md:min-w-[432px] max-w-[50%]', {
                                 'translate-y-20': index === 1
-                            })}>
+                            })} key={index + 50}>
                                 {item.map(element =>
                                     <div className='flex flex-col gap-3' key={element.id}>
                                         <img src={element.image} className='aspect-square object-cover grayscale hover:grayscale-0 transition-all duration-500' alt={element.title} />

@@ -57,9 +57,9 @@ const Resume = () => {
                             <h3 className='h3 mb-6'>{tools.title}</h3>
                             <div className='flex gap-4 w-full'>
                                 {
-                                    currentTools.map(item =>
+                                    currentTools.map((item, index) =>
 
-                                        <div className='flex-1 flex flex-col items-start gap-4 text-sm text-white/80'>
+                                        <div className='flex-1 flex flex-col items-start gap-4 text-sm text-white/80' key={index + 100}>
                                             {item.map(value =>
                                                 <p key={value}>{value}</p>
                                             )

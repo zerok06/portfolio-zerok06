@@ -15,7 +15,7 @@ const Clients = () => {
                 <div className='flex mt-6 flex-wrap justify-center'>
                     {items.map(item =>
                         <motion.div >
-                            <div className='h-[80px] min-w-[200px] px-3'>
+                            <div className='h-[80px] min-w-[200px] px-3' key={item.id}>
                                 <a href={item.url}>
                                     <img src={item.image} className='h-full mx-auto grayscale hover:grayscale-0 transition-all duration-500' alt={item.name} />
                                 </a>
