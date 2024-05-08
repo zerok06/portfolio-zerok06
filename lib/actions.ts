@@ -13,7 +13,7 @@ const ContactSchema = z.object({
 const resend = new Resend(process.env.RESEND_API_KEY)
 const toEmail = process.env.RESEND_EMAIL
 export async function formContact(
-  prevState: string | undefined,
+  /* prevState: string | undefined, */
   formData: FormData
 ) {
   try {
@@ -21,7 +21,7 @@ export async function formContact(
       ...Object.fromEntries(formData.entries()),
     })
 
-    const { data, error } = await resend.emails.send({
+    /* const { data, error } = await resend.emails.send({
       from: `${name} <onboarding@resend.dev>`,
       to: [toEmail!],
       subject: subject,
@@ -29,9 +29,9 @@ export async function formContact(
     })
     if (error) {
       throw error
-    }
-    return 'Mensaje enviado'
+    } */
+    return { success: true }
   } catch (error) {
-    return 'Error'
+    return { success: false }
   }
 }

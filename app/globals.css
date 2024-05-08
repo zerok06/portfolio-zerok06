@@ -6,6 +6,7 @@
 :root {
     --primary: 179 100% 51%;
     --dark: 0 0% 1%;
+    --light: hsl(255 100% 100%);
     --dark-1: 0 0% 10%;
     --prueba: hsl(179, 100%, 51%);
 }
@@ -15,7 +16,7 @@
 }
 
 .hero-background {
-    background: url('/assets/images/hero-bg.png') no-repeat center bottom, radial-gradient(hsl(var(--dark-1)) 0%, hsl(var(--dark)) 60%);
+    background: url('/assets/images/hero-bg.webp') no-repeat center bottom, radial-gradient(hsl(var(--dark-1)) 0%, hsl(var(--dark)) 60%);
     background-size: contain;
 }
 

@@ -15,6 +15,7 @@ const config: Config = {
       colors: {
         primary: 'hsl(var(--primary))',
         dark: 'hsl(var(--dark))',
+        light: 'hsl(var(--light))',
       },
     },
   },
